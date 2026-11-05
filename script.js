@@ -119,8 +119,6 @@ function render() {
     const actions = el('div', 'project-actions');
     if (project?.demoUrl) actions.append(link(`${c.projects.demo} ↗`, project.demoUrl, 'text-link', true));
     else actions.append(el('span', 'project-disabled', c.projects.demo));
-    if (project?.repoUrl) actions.append(link(`${c.projects.code} ↗`, project.repoUrl, 'text-link', true));
-    else actions.append(el('span', 'project-disabled', c.projects.code));
     body.append(actions); add(card, visual, body); projectGrid.append(card);
   });
   projects.wrap.append(projectGrid); main.append(projects.node);
@@ -139,7 +137,7 @@ function render() {
   const contactPanel = el('div', 'contact-panel');
   add(contactPanel, el('p', 'contact-intro', c.contact.intro));
   const contactLinks = el('div', 'contact-links');
-  add(contactLinks, link(`${c.contact.email} ↗`, `mailto:${profile.email}`, 'button button-primary'), link(`${c.contact.linkedin} ↗`, profile.linkedin, 'button button-outline', true));
+  add(contactLinks, link(`${c.contact.email} ↗`, `mailto:${profile.email}`, 'button button-primary'), link('+33 7 53 53 24 10', `tel:${profile.phone}`, 'button button-outline'), link(`${c.contact.linkedin} ↗`, profile.linkedin, 'button button-outline', true));
   contactPanel.append(contactLinks); contact.wrap.append(contactPanel); main.append(contact.node);
   site.append(main);
 

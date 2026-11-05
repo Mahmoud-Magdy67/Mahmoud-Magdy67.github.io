@@ -3,6 +3,7 @@ window.portfolio = {
   profile: {
     name: "Mahmoud Magdy",
     email: "mahmoudmagdy2001@proton.me",
+    phone: "+33753532410",
     linkedin: "https://linkedin.com/in/mahmoudmagdy76",
     cv: "assets/Mahmoud_Magdy_CV.pdf",
     photo: "assets/mahmoud-magdy.jpg"
