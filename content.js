@@ -10,6 +10,17 @@ window.portfolio = {
   },
   projects: [
     {
+      title: { en: "HR Analytics Dashboard", fr: "Tableau de bord RH" },
+      description: {
+        en: "A four-page Power BI dashboard exploring workforce overview, attrition and retention, employee profiles and turnover across a dataset of 1,500+ employees. I audited the DAX measures to reconcile every KPI with the raw data, helping users explore workforce trends with confidence.",
+        fr: "Un tableau de bord Power BI de quatre pages consacré aux effectifs, aux départs et à la fidélisation, aux profils des salariés et au turnover, sur un jeu de données de plus de 1 500 employés. J’ai audité les mesures DAX pour rapprocher chaque indicateur des données sources et fiabiliser l’analyse des tendances RH."
+      },
+      tools: ["Power BI", "DAX", "Excel"],
+      image: "assets/hr-analytics.png",
+      demoUrl: "https://lnkd.in/eqpBi5Ex",
+      repoUrl: ""
+    },
+    {
       title: { en: "World Cup 2026 Analytics", fr: "Analyse de la Coupe du monde 2026" },
       description: {
         en: "An AI-built Streamlit dashboard combining 10 million Monte Carlo simulations with xG, player statistics and Elo rankings across 48 teams and 104 matches. Spain was the model’s top pick. I supervised the AI workflow, validated the analysis and managed the migration from GCP to AWS.",
