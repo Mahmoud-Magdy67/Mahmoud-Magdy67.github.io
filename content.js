@@ -8,11 +8,17 @@ window.portfolio = {
     photo: "assets/mahmoud-magdy.jpg"
   },
   projects: [
-    // Add one object per real project. Example:
-    // { title: { en: "Project name", fr: "Nom du projet" },
-    //   description: { en: "What it does", fr: "Ce qu’il fait" },
-    //   tools: ["Power BI", "SQL"], image: "assets/project-name.jpg",
-    //   demoUrl: "https://...", repoUrl: "https://..." }
+    {
+      title: { en: "World Cup 2026 Analytics", fr: "Analyse de la Coupe du monde 2026" },
+      description: {
+        en: "An AI-built Streamlit dashboard combining 10 million Monte Carlo simulations with xG, player statistics and Elo rankings across 48 teams and 104 matches. Spain was the model’s top pick. I supervised the AI workflow, validated the analysis and managed the migration from GCP to AWS.",
+        fr: "Un tableau de bord Streamlit conçu avec l’IA, combinant 10 millions de simulations Monte-Carlo, les xG, les statistiques des joueurs et les classements Elo sur 48 équipes et 104 matchs. L’Espagne était le premier choix du modèle. J’ai supervisé l’IA, validé les analyses et piloté la migration de GCP vers AWS."
+      },
+      tools: ["Python", "Streamlit", "Monte Carlo", "Hermes Agent", "LLMs", "GCP", "AWS"],
+      image: "assets/world-cup-2026.png",
+      demoUrl: "",
+      repoUrl: ""
+    }
   ],
   en: {
     nav: { about: "About", results: "Results", experience: "Experience", projects: "Projects", skills: "Skills", education: "Education", contact: "Contact" },
@@ -43,7 +49,7 @@ window.portfolio = {
       { role: "Freelance Data Analyst", company: "Remote", period: "Jul 2026 — Present", points: ["Run exploratory analyses and data quality checks across varied datasets to uncover trends, anomalies and opportunities.", "Help clients structure data and define key indicators for activity tracking and decisions."] },
       { role: "Data & Reporting Analyst", company: "Tay Pharmacy", period: "Apr 2026 — Jul 2026", points: ["Deployed Power BI dashboards for sales and financial forecasts, reducing report preparation time by 26%.", "Designed a BigQuery, Looker Studio and AI solution to detect stock-outs and analyse transfers across 66 stores, contributing to a 79% reduction in stock-outs.", "Built Python scripts to extract and transform CSV and HTML data, automating more than 20 daily reports and reducing processing from hours to minutes."] }
     ],
-    projects: { intro: "Work worth sharing is on its way. These spaces are reserved for upcoming case studies.", soon: "Coming soon", title: "Project title", description: "Short description of the challenge, approach and outcome.", demo: "Live demo", code: "Code", imageAlt: "Placeholder for a future project preview" },
+    projects: { intro: "Selected work in data analysis, simulation and AI-assisted development.", soon: "Coming soon", title: "Project title", description: "Short description of the challenge, approach and outcome.", demo: "Live demo", code: "Code", imageAlt: "Placeholder for a future project preview" },
     skills: { intro: "A practical toolkit for analysis, reporting and automation.", groups: [
       { title: "Analysis & visualisation", items: ["Power BI", "DAX", "Power Query", "Looker Studio"] },
       { title: "Programming & data", items: ["Python", "SQL", "BigQuery"] },
@@ -87,7 +93,7 @@ window.portfolio = {
       { role: "Data Analyst freelance", company: "À distance", period: "Juil. 2026 — Aujourd’hui", points: ["Réalise des analyses exploratoires et des contrôles qualité sur différents jeux de données pour repérer tendances, anomalies et pistes d’amélioration.", "Aide les clients à structurer leurs données et à définir des indicateurs clés pour suivre leur activité et décider."] },
       { role: "Analyste data & reporting", company: "Tay Pharmacy", period: "Avr. 2026 — Juil. 2026", points: ["A déployé des tableaux de bord Power BI pour le suivi des ventes et des prévisions financières, réduisant de 26 % le temps de préparation des rapports.", "A conçu une solution BigQuery, Looker Studio et IA pour détecter les ruptures de stock et analyser les transferts entre 66 magasins, contribuant à une baisse de 79 % des ruptures.", "A créé des scripts Python d’extraction et de transformation de données CSV et HTML, automatisant plus de 20 rapports quotidiens et ramenant le traitement de plusieurs heures à quelques minutes."] }
     ],
-    projects: { intro: "De nouveaux projets seront bientôt présentés ici. Ces emplacements sont réservés aux futures études de cas.", soon: "À venir", title: "Titre du projet", description: "Brève description du défi, de la méthode et du résultat.", demo: "Démo", code: "Code", imageAlt: "Emplacement provisoire pour l’aperçu d’un futur projet" },
+    projects: { intro: "Une sélection de projets en analyse de données, simulation et développement assisté par l’IA.", soon: "À venir", title: "Titre du projet", description: "Brève description du défi, de la méthode et du résultat.", demo: "Démo", code: "Code", imageAlt: "Emplacement provisoire pour l’aperçu d’un futur projet" },
     skills: { intro: "Des outils concrets pour l’analyse, le reporting et l’automatisation.", groups: [
       { title: "Analyse & visualisation", items: ["Power BI", "DAX", "Power Query", "Looker Studio"] },
       { title: "Programmation & données", items: ["Python", "SQL", "BigQuery"] },
