@@ -10,6 +10,17 @@ window.portfolio = {
   },
   projects: [
     {
+      title: { en: "Stock Transfer Analytics", fr: "Analyse des transferts de stock" },
+      description: {
+        en: "I rebuilt a professional stock-transfer analysis from scratch using synthetic data. I defined a KPI dictionary, designed a star schema and validated key metrics independently with Python. The Power BI dashboard explores store and route performance, inventory priorities and operational exceptions, turning delivery delays, expired requests and stock availability into practical recommendations.",
+        fr: "J’ai reconstruit de zéro une analyse professionnelle des transferts de stock sur des données synthétiques. J’ai défini un dictionnaire des KPI, conçu un modèle en étoile et vérifié les principaux indicateurs avec Python. Le tableau de bord Power BI analyse les magasins, les itinéraires, les priorités d’inventaire et les exceptions pour transformer retards, demandes expirées et disponibilité du stock en recommandations opérationnelles."
+      },
+      tools: ["Power BI", "Python", "Modélisation en étoile", "KPI"],
+      image: "assets/stock-transfers.png",
+      demoUrl: "https://lnkd.in/ew-qeuFg",
+      repoUrl: ""
+    },
+    {
       title: { en: "HR Analytics Dashboard", fr: "Tableau de bord RH" },
       description: {
         en: "I built a four-page Power BI dashboard to analyse workforce trends, attrition and retention, employee profiles and turnover across a dataset of 1,500+ employees. I developed the DAX measures and interactive visuals to turn HR data into clear, actionable insights.",
