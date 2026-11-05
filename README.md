@@ -19,7 +19,7 @@ Add one object to `portfolio.projects` in `content.js`:
   tools: ["Power BI", "SQL"],
   image: "assets/project-name.jpg",
   demoUrl: "https://example.com",
-  repoUrl: "https://github.com/Mahmoud-Magdy67/example"
+  repoUrl: "https://example.com/code"
 }
 ```
 
@@ -27,7 +27,7 @@ The three “Coming soon” cards appear only while the array is empty. When pro
 
 ## Add the CV
 
-Put the PDF at `assets/Mahmoud_Magdy_CV.pdf`. The download button becomes active when the file is present. Until then, it displays “CV coming soon” and cannot lead to a missing file.
+The public CV is at `assets/Mahmoud_Magdy_CV.pdf`. Its phone number was removed to keep the website phone-free; the original supplied PDF was not changed. The download button checks that the file exists before becoming active.
 
 ## Preview and publish
 

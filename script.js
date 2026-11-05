@@ -32,10 +32,10 @@ function pill(text) { return el('span', 'pill', text); }
 function render() {
   const c = data[language];
   document.documentElement.lang = language;
-  document.title = language === 'fr' ? 'Mahmoud Magdy — Data Analyst à Paris' : 'Mahmoud Magdy — Data Analyst';
+  document.title = language === 'fr' ? 'Mahmoud Magdy — Data Analyst en Île-de-France' : 'Mahmoud Magdy — Data Analyst';
   const description = language === 'fr'
-    ? 'Mahmoud Magdy, Data Analyst à Paris. Power BI, SQL, Python et GCP. Recherche une alternance de 12 mois en France.'
-    : 'Mahmoud Magdy is a Paris-based data analyst working with Power BI, SQL, Python and GCP. Available for a 12-month work-study contract in France.';
+    ? 'Mahmoud Magdy, Data Analyst ouvert à l’alternance et aux stages en Île-de-France. Power BI, SQL, Python, Excel, GCP, machine learning et IA.'
+    : 'Mahmoud Magdy is a data analyst open to work-study and internship opportunities across Île-de-France. Power BI, SQL, Python, Excel, GCP, machine learning and AI.';
   document.querySelector('meta[name="description"]').content = description;
   document.querySelector('meta[property="og:description"]').content = description;
   document.querySelector('meta[property="og:title"]').content = document.title;
@@ -62,7 +62,7 @@ function render() {
   const heroActions = el('div', 'hero-actions');
   add(heroActions, link(c.hero.viewProjects, '#projects', 'button button-primary'), link(c.hero.contact, '#contact', 'button button-outline'));
   const social = el('div', 'hero-social');
-  add(social, link('LinkedIn ↗', profile.linkedin, 'text-link', true), link('GitHub ↗', profile.github, 'text-link', true));
+  add(social, link('LinkedIn ↗', profile.linkedin, 'text-link', true));
   add(heroText, heroActions, social);
   const heroVisual = el('div', 'hero-visual');
   const portrait = el('div', 'portrait');
@@ -139,7 +139,7 @@ function render() {
   const contactPanel = el('div', 'contact-panel');
   add(contactPanel, el('p', 'contact-intro', c.contact.intro));
   const contactLinks = el('div', 'contact-links');
-  add(contactLinks, link(`${c.contact.email} ↗`, `mailto:${profile.email}`, 'button button-primary'), link(`${c.contact.linkedin} ↗`, profile.linkedin, 'button button-outline', true), link(`${c.contact.github} ↗`, profile.github, 'button button-outline', true));
+  add(contactLinks, link(`${c.contact.email} ↗`, `mailto:${profile.email}`, 'button button-primary'), link(`${c.contact.linkedin} ↗`, profile.linkedin, 'button button-outline', true));
   contactPanel.append(contactLinks); contact.wrap.append(contactPanel); main.append(contact.node);
   site.append(main);
 
