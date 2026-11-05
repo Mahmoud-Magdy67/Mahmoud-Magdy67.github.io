@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 540" role="img" aria-labelledby="title">
+  <title id="title">Abstract profile placeholder</title>
+  <rect width="460" height="540" fill="#dce6dc"/>
+  <path d="M0 415C92 385 159 389 228 355s146-27 232-85v270H0Z" fill="#c8d8c8"/>
+  <path d="M0 487c105-40 198-30 283-74 63-32 120-30 177-63v190H0Z" fill="#b8cdbb"/>
+  <circle cx="230" cy="193" r="82" fill="#254b3d" opacity=".11"/>
+  <path d="M121 389c9-76 49-122 109-122s100 46 109 122" fill="#254b3d" opacity=".18"/>
+  <path d="M43 105h58M43 139h98M359 88h59M382 120h36" stroke="#2c6b53" stroke-width="2" opacity=".35"/>
+  <path d="M42 321h54l29-42 36 27 55-82 44 27 43-39 41 20 71-66" fill="none" stroke="#2c6b53" stroke-width="3" opacity=".55"/>
+  <g fill="#2c6b53"><circle cx="125" cy="279" r="5"/><circle cx="216" cy="224" r="5"/><circle cx="303" cy="212" r="5"/></g>
+  <text x="230" y="486" fill="#254b3d" font-family="Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="8" text-anchor="middle">MM</text>
+</svg>
