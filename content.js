@@ -12,8 +12,8 @@ window.portfolio = {
     {
       title: { en: "HR Analytics Dashboard", fr: "Tableau de bord RH" },
       description: {
-        en: "A four-page Power BI dashboard exploring workforce overview, attrition and retention, employee profiles and turnover across a dataset of 1,500+ employees. I audited the DAX measures to reconcile every KPI with the raw data, helping users explore workforce trends with confidence.",
-        fr: "Un tableau de bord Power BI de quatre pages consacré aux effectifs, aux départs et à la fidélisation, aux profils des salariés et au turnover, sur un jeu de données de plus de 1 500 employés. J’ai audité les mesures DAX pour rapprocher chaque indicateur des données sources et fiabiliser l’analyse des tendances RH."
+        en: "I built a four-page Power BI dashboard to analyse workforce trends, attrition and retention, employee profiles and turnover across a dataset of 1,500+ employees. I developed the DAX measures and interactive visuals to turn HR data into clear, actionable insights.",
+        fr: "J’ai conçu un tableau de bord Power BI de quatre pages pour analyser les effectifs, les départs et la fidélisation, les profils des salariés et le turnover, sur un jeu de données de plus de 1 500 employés. J’ai développé les mesures DAX et les visualisations interactives pour transformer les données RH en indicateurs clairs et utiles à la décision."
       },
       tools: ["Power BI", "DAX", "Excel"],
       image: "assets/hr-analytics.png",
