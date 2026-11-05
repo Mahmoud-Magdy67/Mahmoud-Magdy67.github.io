@@ -39,6 +39,7 @@ function render() {
   document.querySelector('meta[name="description"]').content = description;
   document.querySelector('meta[property="og:description"]').content = description;
   document.querySelector('meta[property="og:title"]').content = document.title;
+  document.querySelector('.skip-link').textContent = language === 'fr' ? 'Aller au contenu' : 'Skip to content';
   site.replaceChildren();
 
   const header = el('header', 'site-header');
