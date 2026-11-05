@@ -12,8 +12,8 @@ window.portfolio = {
     {
       title: { en: "Stock Transfer Analytics", fr: "Analyse des transferts de stock" },
       description: {
-        en: "I rebuilt a professional stock-transfer analysis from scratch using synthetic data. I defined a KPI dictionary, designed a star schema and validated key metrics independently with Python. The Power BI dashboard explores store and route performance, inventory priorities and operational exceptions, turning delivery delays, expired requests and stock availability into practical recommendations.",
-        fr: "J’ai reconstruit de zéro une analyse professionnelle des transferts de stock sur des données synthétiques. J’ai défini un dictionnaire des KPI, conçu un modèle en étoile et vérifié les principaux indicateurs avec Python. Le tableau de bord Power BI analyse les magasins, les itinéraires, les priorités d’inventaire et les exceptions pour transformer retards, demandes expirées et disponibilité du stock en recommandations opérationnelles."
+        en: "I developed a stock-transfer analytics dashboard using synthetic data. I defined a KPI dictionary, designed a star schema and validated key metrics independently with Python. The Power BI dashboard explores store and route performance, inventory priorities and operational exceptions, turning delivery delays, expired requests and stock availability into practical recommendations.",
+        fr: "J’ai développé un tableau de bord d’analyse des transferts de stock sur des données synthétiques. J’ai défini un dictionnaire des KPI, conçu un modèle en étoile et vérifié les principaux indicateurs avec Python. Le tableau de bord Power BI analyse les magasins, les itinéraires, les priorités d’inventaire et les exceptions pour transformer retards, demandes expirées et disponibilité du stock en recommandations opérationnelles."
       },
       tools: ["Power BI", "Python", "Modélisation en étoile", "KPI"],
       image: "assets/stock-transfers.png",
