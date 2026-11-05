@@ -16,7 +16,7 @@ window.portfolio = {
       },
       tools: ["Python", "Streamlit", "Monte Carlo", "Hermes Agent", "LLMs", "GCP", "AWS"],
       image: "assets/world-cup-2026.png",
-      demoUrl: "",
+      demoUrl: "https://world-cup-analytics-dashboard-64igjf2ttor4mgw3twowhh.streamlit.app/",
       repoUrl: ""
     }
   ],
