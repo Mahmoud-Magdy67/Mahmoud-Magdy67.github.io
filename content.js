@@ -5,7 +5,7 @@ window.portfolio = {
     email: "mahmoudmagdy2001@proton.me",
     linkedin: "https://linkedin.com/in/mahmoudmagdy76",
     cv: "assets/Mahmoud_Magdy_CV.pdf",
-    photo: "assets/profile-placeholder.svg"
+    photo: "assets/mahmoud-magdy.jpg"
   },
   projects: [
     // Add one object per real project. Example:
@@ -21,7 +21,7 @@ window.portfolio = {
       role: "Data Analyst",
       lead: "Turning complex data into clear decisions.",
       intro: "Power BI, SQL, Python, Excel, GCP, machine learning and AI. Open to a 12-month work-study contract (3 weeks at the company, 1 week at school) or an internship across Île-de-France.",
-      viewProjects: "View projects", contact: "Contact me", availability: "Open to alternance & internships", photoAlt: "Abstract placeholder portrait for Mahmoud Magdy"
+      viewProjects: "View projects", contact: "Contact me", availability: "Open to alternance & internships", photoAlt: "Mahmoud Magdy wearing a suit"
     },
     section: { about: "About", results: "Selected impact", experience: "Experience", projects: "Projects", skills: "Skills", education: "Education", contact: "Let's talk" },
     about: {
@@ -35,7 +35,7 @@ window.portfolio = {
         { value: "−26%", label: "report preparation time" },
         { value: "−79%", label: "stock-outs" },
         { value: "66", label: "stores covered" },
-        { value: "20+", label: "daily reports automated" }
+        { value: "20+", label: "reports automated daily" }
       ]
     },
     experience: [
@@ -49,7 +49,7 @@ window.portfolio = {
       { title: "Programming & data", items: ["Python", "SQL", "BigQuery"] },
       { title: "Office & reporting", items: ["Excel", "Reporting automation"] },
       { title: "Cloud, AI & machine learning", items: ["GCP", "Machine learning", "AI automation"] },
-      { title: "Ways of working", items: ["Analytical thinking", "Problem solving", "Clear communication", "Collaboration", "Attention to detail"] }
+      { title: "Soft skills", items: ["Analytical thinking", "Problem solving", "Clear communication", "Collaboration", "Attention to detail"] }
     ] },
     education: [
       { degree: "Master’s in Management, Data Science & Business Intelligence", school: "EDC Paris Business School · Paris, France", level: "BAC+5", period: "Sep 2026 — Dec 2027" },
@@ -65,7 +65,7 @@ window.portfolio = {
       role: "Data Analyst",
       lead: "Transformer les données complexes en décisions claires.",
       intro: "Power BI, SQL, Python, Excel, GCP, machine learning et IA. Ouvert à une alternance de 12 mois (3 semaines en entreprise, 1 semaine à l’école) ou à un stage en Île-de-France.",
-      viewProjects: "Voir les projets", contact: "Me contacter", availability: "Ouvert à l’alternance et aux stages", photoAlt: "Portrait abstrait provisoire de Mahmoud Magdy"
+      viewProjects: "Voir les projets", contact: "Me contacter", availability: "Ouvert à l’alternance et aux stages", photoAlt: "Mahmoud Magdy en costume"
     },
     section: { about: "À propos", results: "Résultats clés", experience: "Expérience", projects: "Projets", skills: "Compétences", education: "Formation", contact: "Échangeons" },
     about: {
@@ -79,7 +79,7 @@ window.portfolio = {
         { value: "−26 %", label: "de temps de préparation des rapports" },
         { value: "−79 %", label: "de ruptures de stock" },
         { value: "66", label: "magasins couverts" },
-        { value: "20+", label: "rapports quotidiens automatisés" }
+        { value: "20+", label: "rapports automatisés chaque jour" }
       ]
     },
     experience: [
@@ -93,7 +93,7 @@ window.portfolio = {
       { title: "Programmation & données", items: ["Python", "SQL", "BigQuery"] },
       { title: "Bureautique & reporting", items: ["Excel", "Automatisation des rapports"] },
       { title: "Cloud, IA & machine learning", items: ["GCP", "Machine learning", "Automatisation par l’IA"] },
-      { title: "Savoir-être", items: ["Esprit d’analyse", "Résolution de problèmes", "Communication claire", "Travail en équipe", "Souci du détail"] }
+      { title: "Compétences relationnelles", items: ["Esprit d’analyse", "Résolution de problèmes", "Communication claire", "Travail en équipe", "Souci du détail"] }
     ] },
     education: [
       { degree: "Master en management, Data Science & Business Intelligence", school: "EDC Paris Business School · Paris, France", level: "BAC+5", period: "Sept. 2026 — Déc. 2027" },
