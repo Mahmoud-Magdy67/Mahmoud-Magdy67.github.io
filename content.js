@@ -17,7 +17,7 @@ window.portfolio = {
       },
       tools: ["Power BI", "Python", "Modélisation en étoile", "KPI"],
       image: "assets/stock-transfers.png",
-      demoUrl: "https://lnkd.in/ew-qeuFg",
+      demoUrl: "https://app.powerbi.com/groups/me/reports/b5d59341-6568-454b-9f10-0bb6f4fe5f15/5fd39019e88840272e3e?experience=power-bi",
       repoUrl: ""
     },
     {
