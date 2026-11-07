@@ -17,7 +17,7 @@ window.portfolio = {
       },
       tools: ["Power BI", "Python", "Modélisation en étoile", "KPI"],
       image: "assets/stock-transfers.png",
-      demoUrl: "https://app.powerbi.com/groups/me/reports/b5d59341-6568-454b-9f10-0bb6f4fe5f15/5fd39019e88840272e3e?experience=power-bi",
+      demoUrl: "https://app.powerbi.com/view?r=eyJrIjoiZGE2ZmI3OTctYzllOC00ZGY1LTk2NTAtMzY3MGVmNDViZTA5IiwidCI6IjBiYTdiMTY4LTlmN2EtNGQ5Yi1hZjAzLTBlOGY5NzBhOTk0MCIsImMiOjh9",
       repoUrl: ""
     },
     {
@@ -28,7 +28,7 @@ window.portfolio = {
       },
       tools: ["Power BI", "DAX", "Excel"],
       image: "assets/hr-analytics.png",
-      demoUrl: "https://lnkd.in/eqpBi5Ex",
+      demoUrl: "https://app.powerbi.com/view?r=eyJrIjoiNjFkOGNiYzktMmIzYi00MTVkLWJhZTktNDVjYmVhOTVjZjI3IiwidCI6IjBiYTdiMTY4LTlmN2EtNGQ5Yi1hZjAzLTBlOGY5NzBhOTk0MCIsImMiOjh9",
       repoUrl: ""
     },
     {
